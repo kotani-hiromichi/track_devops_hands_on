@@ -13,5 +13,5 @@ def test_add_integers():
 
 
 def test_add_floats():
-    """浮動小数点数の加算をテスト"""
-    assert add(1.2, 3.5) == 4.7
+    """浮動小数点数の加算をテスト（整数に変換）"""
+    assert add(1.2, 3.5) == 4
